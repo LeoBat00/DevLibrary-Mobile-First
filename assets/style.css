@@ -1,0 +1,13 @@
+@import url("styles/header.css");
+
+
+:root{
+    --cor-bg:#EBECEE;
+    --cor-bg-header:#FFFFFF;
+}
+
+body{
+    background-color: var(--cor-bg);
+}
+
+
