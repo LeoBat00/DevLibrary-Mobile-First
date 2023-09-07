@@ -11,10 +11,11 @@
 }
 
 .cabecalho{
-    background-color: var(--cor-bg-header);
+    background-color: var(--cor-branco);
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: relative;
 }
 
 .cabecalho .container{
@@ -26,4 +27,37 @@
 
 .cabecalho .container__imagem{
     padding: 0.5em;
+}
+
+.lista-menu {
+    width: 60vw;
+    display: none;
+    position: absolute;
+    top:100%;
+}
+
+.container__botao:checked~ .lista-menu{
+    display: block;
+
+}
+
+.lista-menu__titulo, .lista-menu__item{
+    padding: 1em;
+    background-color: var(--cor-branco);
+
+}
+
+.lista-menu__titulo{
+    font-weight: 700;
+    font-size: 16px;
+    color: var(--cor-titulo-header);
+}
+
+.lista-menu__link{  
+    font-size: 16px;
+    background: var(--cor-azul-gradiant);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform:uppercase;
 }

@@ -3,7 +3,10 @@
 
 :root{
     --cor-bg:#EBECEE;
-    --cor-bg-header:#FFFFFF;
+    --cor-branco:#FFFFFF;
+    --cor-titulo-header:#EB9B00;
+    --cor-azul-gradiant: linear-gradient(98deg, #002F52 35.49%, #326589 165.37%);
+
 }
 
 body{
