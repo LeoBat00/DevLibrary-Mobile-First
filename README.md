@@ -2,7 +2,7 @@
 
 <img loading="lazy" src="http://img.shields.io/static/v1?label=STATUS&message=FINALIZADO&color=GREEN&style=for-the-badge"/>
 
-> Um projeto responsivo desenvolvido com HTML, CSS e integrando a biblioteca Swiper.js. O projeto segue a abordagem mobile-first e inclui um menu hamburguer.
+> Um projeto responsivo desenvolvido no curso Alura. Com HTML, CSS e integrando a biblioteca Swiper.js. O projeto segue a abordagem mobile-first e inclui um menu hamburguer.
 ## Demonstração
 >Visite o projeto!
 https://leobat00.github.io/DevLibrary-Mobile-First/
